@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+    ),
+    url(../imagenes/thumb-1920-30610.jpg);
+  background-repeat: no-repeat;
+}
+.header {
+  
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.logo {
+  width: 12%;
+  border: 4px solid black;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  border-bottom: solid 8px darkgoldenrod;
+  padding: 15px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  text-transform: uppercase;
+}
+.footer {
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: darkgoldenrod;
+  font-size: larger;
+}
+.bienvenida {
+  background-color: black;
+  height: 220px;
+  width: 300px;
+  color: darkgoldenrod;
+  text-transform: capitalize;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 35px;
+  border: 8px outset darkgoldenrod;
+}
+.formulario {
+  background-color: black;
+  margin: auto;
+  width: 300px;
+  padding: 25px;
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.nosotros {
+  width: 60%;
+  font-size: 130%;
+  font-family: cursive;
+  font-style: italic;
+  margin-left: 20%;
+  font-weight: bolder;
+}
+.video {
+  width: 300px;
+  height: 200px;
+  margin-left: 20%;
+  border: 5px solid darkgoldenrod;
+}
+.contenido__principal {
+  display: flex;
+  justify-content: space-evenly;
+}
+.imagen__principal {
+  width: 400px;
+  height: 300px;
+  border: 8px solid black;
+}
+.productos__galeria {
+  display: flex;
+  justify-content: center;
+}
+.galeria__productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+.galeria__producto--img {
+  width: 250px;
+  height: 200px;
+  background-color: black;
+}
+@media only screen and (max-width: 768px) {
+  .galeria__productos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  nav {
+    font-size: 16px;
+  }
+  .contenido__principal {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .galeria__productos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  ul li a {
+    font-size: 16px;
+  }
+  .contenido__principal {
+    flex-direction: column;
+    align-items: center;
+  }
+}
