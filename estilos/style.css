@@ -61,7 +61,25 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 35px;
   border: 8px outset darkgoldenrod;
+  
 }
+.bienvenida:hover{
+  height: 240px;
+  width: 310px;
+}
+.imagen__principal:hover {
+    height: 310px;
+    animation: ease-in animat 1s;   
+}
+
+@keyframes animat {
+    0% {
+      width: 400px;
+    }
+    100% {
+      width: 420px;
+    }
+  }
 .formulario {
   background-color: black;
   margin: auto;
