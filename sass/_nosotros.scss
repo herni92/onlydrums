@@ -1,0 +1,49 @@
+.video__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  border-radius: 10px;
+  height: 30em;
+  margin: 0.8em auto 300px auto;
+  background: conic-gradient(
+    from 330deg at 73% 125%,
+    rgba(171, 136, 32, 0.78),
+    rgba(0, 0, 0, 1)
+  );
+}
+.description__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 30em;
+}
+.nosotros {
+  width: 90%;
+  padding: 50px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: italic;
+  margin-left: 1em auto 1em auto;
+  color: rgb(12, 8, 8);
+}
+.capital {
+  color: rgb(15, 13, 4);
+}
+.button {
+  padding: 1em;
+  background-color: rgb(17, 13, 2);
+  font-weight: bolder;
+  border-radius: 0.9em;
+  width: 10em;
+  color: darkgoldenrod;
+}
+.video {
+  width: 50%;
+  height: 22em;
+  border: 5px solid darkgoldenrod;
+  margin: 10px auto 10px auto;
+}

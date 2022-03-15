@@ -1,0 +1,56 @@
+@import "variables";
+/* ------------------------------------------------navBAr----------------------------------------------- */
+@import "navbar";
+
+/* ----------------------------------------------------------main------------------------------------------------*/
+@import "index";
+
+@import "nosotros";
+
+/*--------------------------------------------------galeria-----------------------------------------------------*/
+
+@import "galeria";
+/*---------------------------------------------------contacto----------------------------------------------------*/
+@import "contacto";
+/*-----------------------------------------------------Footer---------------------------------------------*/
+
+@import "footer";
+@import "body";
+/*--------------------------------------------------------Querys--------------------------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .galeria__productos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  nav {
+    font-size: 16px;
+  }
+  .contenido__principal {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .galeria__productos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  ul li a {
+    font-size: 16px;
+  }
+  .contenido__principal {
+    flex-direction: column;
+    align-items: center;
+  }
+}

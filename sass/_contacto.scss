@@ -1,0 +1,32 @@
+.formulario {
+    background-color: black;
+    margin: auto;
+    width: 60%;
+    padding: 25px;
+    margin-top: 100px;
+    color: $colorForm;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+  }
+  .card {
+    background-color: rgba(46, 45, 45, 0.486);
+    padding: 10px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(212, 210, 208);
+  }
+  .card-img-top{
+    object-fit: cover;
+  }
+  .row {
+    margin-top: 20px;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }

@@ -1,0 +1,18 @@
+.productos__galeria {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+  }
+  .galeria__productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 33px;
+  }
+  .galeria__producto--img {
+    width: 250px;
+    height: 200px;
+    background-color: black;
+    border: 8px solid black;
+  }
