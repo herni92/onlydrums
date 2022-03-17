@@ -183,6 +183,26 @@ li {
 body {
   background-color: black; }
 
+.btn--facebook {
+  background-color: #3a5795; }
+
+.btn--instagram {
+  background-color: #C25E30; }
+
+.btn--twitter {
+  background-color: #55acee; }
+
+.tituloTienda, .subtitulo {
+  color: darkgoldenrod; }
+
+.subtitulo {
+  border: 3px solid white; }
+
+.subtitulo {
+  height: 80px;
+  width: 400px;
+  background-color: white; }
+
 /*--------------------------------------------------------Querys--------------------------------------------------*/
 * {
   padding: 0;

@@ -1,0 +1,15 @@
+.tituloTienda{
+    color: darkgoldenrod;
+}
+.subtitulo{
+    @extend .tituloTienda;
+    border: 3px solid white;
+}
+@mixin size ($height, $width){
+    height: $height;
+    width: $width;
+}
+.subtitulo{
+    @include size(80px, 400px);
+    background-color: white;
+}
