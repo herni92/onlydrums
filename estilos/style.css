@@ -32,6 +32,9 @@ li {
 .carousel-caption {
   background-color: #2e2c2c4f; }
 
+.carousel-inner {
+  height: 60vh; }
+
 .contenido__principal {
   display: flex;
   justify-content: space-evenly;
@@ -131,7 +134,11 @@ li {
   width: 250px;
   height: 200px;
   background-color: black;
-  border: 8px solid black; }
+  border: 8px solid darkgoldenrod; }
+
+.productos__main {
+  display: flex;
+  flex-direction: row; }
 
 /*---------------------------------------------------contacto----------------------------------------------------*/
 .formulario {
@@ -180,6 +187,11 @@ li {
   height: 150px;
   margin-top: 2em; }
 
+.footer__social-icon {
+  margin: 20px;
+  font-size: 2rem;
+  color: darkgoldenrod; }
+
 body {
   background-color: black; }
 
@@ -192,16 +204,30 @@ body {
 .btn--twitter {
   background-color: #55acee; }
 
-.tituloTienda, .subtitulo {
-  color: darkgoldenrod; }
+.tienda__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
-.subtitulo {
-  border: 3px solid white; }
+.row {
+  justify-content: center; }
 
+.card {
+  background-color: rgba(46, 45, 45, 0.486);
+  padding: 10px;
+  margin: 20px;
+  border: 5px solid darkgoldenrod; }
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #d4d2d0; }
+
+.tituloTienda,
 .subtitulo {
-  height: 80px;
-  width: 400px;
-  background-color: white; }
+  color: darkgoldenrod;
+  text-align: center; }
 
 /*--------------------------------------------------------Querys--------------------------------------------------*/
 * {

@@ -1,15 +1,26 @@
-.tituloTienda{
-    color: darkgoldenrod;
-}
-.subtitulo{
-    @extend .tituloTienda;
-    border: 3px solid white;
-}
-@mixin size ($height, $width){
-    height: $height;
-    width: $width;
-}
-.subtitulo{
-    @include size(80px, 400px);
-    background-color: white;
+.tienda__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row {
+    justify-content: center;
+  }
+  .card {
+    background-color: rgba(46, 45, 45, 0.486);
+    padding: 10px;
+    margin: 20px;
+    border: 5px solid darkgoldenrod;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d4d2d0;
+  }
+  .tituloTienda,
+.subtitulo {
+  color: darkgoldenrod;
+  text-align: center;
 }

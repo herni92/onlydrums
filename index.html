@@ -12,6 +12,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="./estilos/style.css">
   <title>Document</title>
 </head>
@@ -89,32 +91,32 @@
     </button>
   </div>
   <div class="contenido__principal">
-    <div class="contenido__principal--container">
+    <div data-aos="fade-right" class="contenido__principal--container">
       <h3 class="contenido__principal--titulo">El lugar que todo baterista quiere conocer</h3>
       <p class="contenido__principal--descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima itaque tempora error adipisci eveniet molestias, earum nemo, maiores eaque nobis distinctio, veniam reiciendis.</p>
     </div>
     <img class="contenido__principal--imagen" src="./imagenes/index 1.jpg" alt="">
   </div>
   <div class="contenido__principal2">
-    <div class="contenido__principal--container">
+    <div data-aos="fade-left" class="contenido__principal--container">
       <h3 class="contenido__principal--titulo">Calidad en todos nuestros instrumentos</h3>
       <p class="contenido__principal--descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima itaque tempora error adipisci eveniet molestias, earum nemo, maiores eaque nobis distinctio, veniam reiciendis.</p>
     </div>
     <img class="contenido__principal--imagen" id="imagen-index2" src="./imagenes/index 2.jpg" alt="">
   </div>
   <div class="contenido__principal">
-    <div class="contenido__principal--container">
+    <div data-aos="fade-right" class="contenido__principal--container">
       <h3 class="contenido__principal--titulo">Showroom</h3>
       <p class="contenido__principal--descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima itaque tempora error adipisci eveniet molestias, earum nemo, maiores eaque nobis distinctio, veniam reiciendis.</p>
     </div>
     <img class="contenido__principal--imagen" src="./imagenes/index 3.jpg" alt="">
   </div>
   <footer class="footer">
-    <ul class="footer__container">
-      <div><input type="button" value="facebook" class="btn--facebook"></div>
-      <div><input type="button" value="instagram" class="btn--instagram"></div>
-      <div><input type="button" value="twitter" class="btn--twitter"></div>
-    </ul>
+    <div class="footer__container">
+      <i class="bi bi-facebook footer__social-icon"></i>
+      <i class="bi bi-instagram footer__social-icon"></i>
+      <i class="bi bi-twitter footer__social-icon"></i>
+    </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
@@ -122,6 +124,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

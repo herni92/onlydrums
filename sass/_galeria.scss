@@ -14,5 +14,9 @@
     width: 250px;
     height: 200px;
     background-color: black;
-    border: 8px solid black;
+    border: 8px solid darkgoldenrod;
+  }
+  .productos__main{
+    display: flex;
+    flex-direction: row;
   }
