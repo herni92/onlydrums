@@ -1,5 +1,5 @@
 .formulario {
-    background-color: black;
+    background-color: darkgoldenrod;
     margin: auto;
     width: 60%;
     padding: 25px;
@@ -28,5 +28,10 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+  }
+  .titulo__contacto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: darkgoldenrod;
   }

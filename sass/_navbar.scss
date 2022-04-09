@@ -4,12 +4,13 @@
     background-position: center;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0);
+    border-bottom: 6px solid rgba(184, 135, 11, 0.308)
   }
   .navbar-collapse {
     flex-grow: initial;
   }
   li {
-    border-bottom: 5px solid darkgoldenrod;
+    border-bottom: 5px solid rgba(184, 135, 11, 0.507);
     margin: 10px;
     margin-bottom: 5px;
     list-style-type: none;
